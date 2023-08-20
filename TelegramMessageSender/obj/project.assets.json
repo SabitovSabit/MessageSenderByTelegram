@@ -1,0 +1,225 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Telegram.Bot/19.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Telegram.Bot.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Telegram.Bot.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Telegram.Bot.Extensions.Markup/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Telegram.Bot": "18.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Telegram.Bot.Extensions.Markup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Telegram.Bot.Extensions.Markup.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Telegram.Bot.Extensions.Passport/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Telegram.Bot": "14.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Telegram.Bot.Extensions.Passport.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telegram.Bot.Extensions.Passport.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Telegram.Bot/19.0.0": {
+      "sha512": "Q16IOitgjGoaJOuqgKQy0FeF+hr/ncmlX2esrhCC7aiyhSX7roYEriWaGAHkQZR8QzbImjFfl4eQh2IxcnOrPg==",
+      "type": "package",
+      "path": "telegram.bot/19.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Telegram.Bot.dll",
+        "lib/net6.0/Telegram.Bot.pdb",
+        "lib/net6.0/Telegram.Bot.xml",
+        "lib/netstandard2.0/Telegram.Bot.dll",
+        "lib/netstandard2.0/Telegram.Bot.pdb",
+        "lib/netstandard2.0/Telegram.Bot.xml",
+        "package-icon.png",
+        "telegram.bot.19.0.0.nupkg.sha512",
+        "telegram.bot.nuspec"
+      ]
+    },
+    "Telegram.Bot.Extensions.Markup/1.0.1": {
+      "sha512": "u33HQ7ilo3lem7sitELsm6OV0dg6Db8CCs2eJxG4Eaut2APscKWK/1zvDxLzxFfd0eJZxlJK3Fona8ikg6ZtXA==",
+      "type": "package",
+      "path": "telegram.bot.extensions.markup/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/Telegram.Bot.Extensions.Markup.dll",
+        "lib/net6.0/Telegram.Bot.Extensions.Markup.xml",
+        "telegram.bot.extensions.markup.1.0.1.nupkg.sha512",
+        "telegram.bot.extensions.markup.nuspec"
+      ]
+    },
+    "Telegram.Bot.Extensions.Passport/1.0.0": {
+      "sha512": "xy0aF9dKcdQe8PkI1X96BXzB0ACJXxxKwPdtt6Xsl7qxhXwmtx+sxqJ1nnPLVLM9TA15A0KRWqp8kY71b68JFQ==",
+      "type": "package",
+      "path": "telegram.bot.extensions.passport/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Telegram.Bot.Extensions.Passport.dll",
+        "lib/net461/Telegram.Bot.Extensions.Passport.xml",
+        "lib/netstandard2.0/Telegram.Bot.Extensions.Passport.dll",
+        "lib/netstandard2.0/Telegram.Bot.Extensions.Passport.xml",
+        "telegram.bot.extensions.passport.1.0.0.nupkg.sha512",
+        "telegram.bot.extensions.passport.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Telegram.Bot >= 19.0.0",
+      "Telegram.Bot.Extensions.Markup >= 1.0.1",
+      "Telegram.Bot.Extensions.Passport >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Sabitov\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Sabitov\\source\\repos\\TelegramMessageSender\\TelegramMessageSender\\TelegramMessageSender.csproj",
+      "projectName": "TelegramMessageSender",
+      "projectPath": "C:\\Users\\Sabitov\\source\\repos\\TelegramMessageSender\\TelegramMessageSender\\TelegramMessageSender.csproj",
+      "packagesPath": "C:\\Users\\Sabitov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sabitov\\source\\repos\\TelegramMessageSender\\TelegramMessageSender\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Sabitov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Telegram.Bot": {
+            "target": "Package",
+            "version": "[19.0.0, )"
+          },
+          "Telegram.Bot.Extensions.Markup": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
+          "Telegram.Bot.Extensions.Passport": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
